@@ -1,2 +1,20 @@
-# SuasVendas-KB
-Plataforma web de base de conhecimento interna para centralizar, organizar e facilitar a consulta de informações técnicas e procedimentos do sistema SuasVendas. Desenvolvida durante a Imersão Engenharia de Software: Dev na Era da IA, da Alura, com apoio do Google AI Studio e Antigravity.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/40286ab7-0e9c-49ed-83e7-6ac63d53713e
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
